@@ -2,96 +2,112 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Walid Ghariani
     - name: Date of Birth
-      value: 14th March 1879
+      value: 11th April 1993
     - name: Languages
-      value: English, German
-
+      value: English, French, German, Arabic.
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: MSc Applied Earth Observation and Geoanalysis
+      institution: <a href="https://www.uni-wuerzburg.de/startseite/">Julius-Maximilians-Universität Würzburg</a>, Würzburg, Germany
+      year: 10/2019 - 06/2023 
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - Programming and Statistics for Remote Sensing and GIS.
+        - Digital Image Analysis and GIS.
+        - From Field Measurements to Geoinformation.
+        - title: Applications of Earth Observation.
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+            - Land and Water Management.
+            - Remote Sensing of Urban Areas.
+        - title: Advanced Methods and Modeling.
+          contents:
+            - Spatial Python for Remote Sensing.
+            - Radar Remote Sensing.
+            - LiDAR remote sensing.
+            - Remote Sensing of Urban Areas.
+            - UAV Data in Remote Sensing.
+            - Cloud Computing in Remote Sensing.
+            - Advanced Spatial Analysis for Geoscientists.
+
+    - title: Engineering degree in Georesources & Environment
+      institution: <a href="http://www.enis.rnu.tn">National School of Engineers of Sfax</a>, Sfax, Tunisia
+      year:  2015 - 2018
+    - title: BS Earth Sciences
+      institution: <a href="http://www.fss.rnu.tn">Faculty of Sciences of Sfax</a>, Sfax, Tunisia
+      year:  2012 - 2015
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Remote Sensing Research Assistant 
+      institution: <a href="https://www.uni-wuerzburg.de/startseite/">Julius-Maximilians-Universität Würzburg</a>, Würzburg, Germany
+      year: 05/2022 - PRESENT
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Automated the download for ready to use weather and satellite data.
+        - Pre and post processing of satellite data. 
+        - Land cover classification and geospatial analysis in GEE, Python and R.
+        - Technical and research assistance.
+
+    - title: Remote Sensing Product Developer 
+      institution: <a href="https://supervision.earth/">SuperVision Earth GmbH</a>, Darmstadt, Germany  
+      year:  07/2020 - 09/2021 
       description:
-        - Description 1.
-        - Description 2.
+        - Contributed to an auto-processing pipeline for PlanetScope and Skysat satellite imagery.
+        - Optimised the reporting workflow to the customers.
+        - Implementation of software testing and script optimisation.
+        - Geospatial analysis, management and visualisation.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
+- title: Relevant Trainings
+  type: time_table
+  contents:
+    - title: MSc. Thesis 
+      institution: <a href="https://www.uni-wuerzburg.de/startseite/">Julius-Maximilians-Universität Würzburg</a>, Würzburg, Germany
+      year: 10/2022 - 03/2023 
+      description: 
+        - Thesis Title | PM2.5 Prediction Using Remote Sensing and Meteorological Data Across Bavaria. 
+        - Satellite and climate data processing.
+        - Data cleaning & preparation.
+        - Applied and evaluated Machine Learning algorithms in Python.
+        - Spatial prediction on xarray data.
+        - Comprehensive analysis of the results leveraging statistical analysis and visualisation for meaningful insights.
+    
+    - title: MSc. Internship, German Aerospace Center (DLR)
+      institution: <a href="https://www.dlr.de">Deutsches Zentrum für Luft- und Raumfahrt (DLR)</a>, Oberpfaffenhofen, Germany
+      year: 09/2020 - 10/2020 
+      description: 
+        - Geospatial analysis with socio-economic data.
+        - Developed a processing workflow for the spatial analysis of urban growth.
+        - Spatial analysis with land cover data and satellite imagery.
+        - Task optimisation using python, R and Google Earth Engine API.
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Engineering Degree Thesis
+      institution: <a href="http://www.enis.rnu.tn">National School of Engineers of Sfax</a>, Sfax, Tunisia
+      year: 03/2018 - 08/2018 
+      description: 
+      - Thesis Title | Soil Moisture Assessment Using Thermal-Optical Remote Sensing Data and Ground Truth Measurements. A Case Study in the Region of Gabes, South-East Tunisia.
+      - Field work sampling.
+      - Satellite data processing and spectral analysis.
+      - Statistical analysis for soil moisture prediction.
 
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: <a href="https://github.com/WalidGharianiEAGLE/spatial-kfold">spatial-kfold</a>
+      year: 2023
+      description:  
+      - A Python Package for Spatial Resampling Toward More Reliable Cross-Validation in Spatial Studies. 
+      - Install with <a href="https://pypi.org/project/spatial-kfold/">pypi</a>
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+    - title: <a href="https://walidgharianieagle.shinyapps.io/AustralianBushFires_2019-2020/">Australian Bushfire App</a>
+      year: 2020
+      description:  
+      - Shiny application for tracking and analysing bushfires using spatial and satellite data.
+      - Source code available on <a href="https://github.com/WalidGharianiEAGLE/Aus_Bushfires_App">Github</a>
+      img: "/assets/prof_pic.jpg"
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Tennis, Chess, Hiking, Dancing.
