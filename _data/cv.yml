@@ -98,11 +98,12 @@
       - Source code available on <a href="https://github.com/WalidGharianiEAGLE/Aus_Bushfires_App">Github</a>
       img: "/assets/prof_pic.jpg"
 
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Tennis, Chess, Hiking, Dancing.
 - title: Languages
   type: list
   contents:
     - English, French, German, Arabic.
+
+- title: Other Interests
+  type: list
+  contents:
+    - <u>Hobbies:</u> Tennis, Chess, Hiking, Dancing.
