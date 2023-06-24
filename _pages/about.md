@@ -27,3 +27,63 @@ Outside of work, I value the opportunity to create meaningful connections with p
 ## Skills and Expertise
 
 This list represents some of the key tools and technologies that I work with and continuously enhance my skills in. Please note that this is not an exhaustive list, and I am always open to exploring and learning new technologies.
+
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <a href="https://www.python.org" target="_blank">
+            {% include figure.html path="/assets/img/skills_logos/python.svg" title="Python" class="img-fluid rounded z-depth-1" style="height: 10px" %}
+        </a>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <a href="https://www.r-project.org" target="_blank">
+            {% include figure.html path="/assets/img/skills_logos/R1.svg" title="R" class="img-fluid rounded z-depth-1" %}
+        </a>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <a href="https://www.qgis.org" target="_blank">
+            {% include figure.html path="/assets/img/skills_logos/qgis.svg" title="QGIS" class="img-fluid rounded z-depth-1" %}
+        </a>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <a href="https://gdal.org" target="_blank">
+            {% include figure.html path="/assets/img/skills_logos/gdal.svg" title="GDAL" class="img-fluid rounded z-depth-1" %}
+        </a>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <a href="https://geopandas.org" target="_blank">
+            {% include figure.html path="/assets/img/skills_logos/geopandas_logo.svg" title="Geopandas" class="img-fluid rounded z-depth-1" %}
+        </a>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <a href="http://xarray.pydata.org" target="_blank">
+            {% include figure.html path="/assets/img/skills_logos/xarray.svg" title="Xarray" class="img-fluid rounded z-depth-1" %}
+        </a>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <a href="https://pandas.pydata.org" target="_blank">
+            {% include figure.html path="/assets/img/skills_logos/pandas.svg" title="Pandas" class="img-fluid rounded z-depth-1" %}
+        </a>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <a href="https://numpy.org" target="_blank">
+            {% include figure.html path="/assets/img/skills_logos/numpylogo.svg" title="NumPy" class="img-fluid rounded z-depth-1" %}
+        </a>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <a href="https://matplotlib.org" target="_blank">
+            {% include figure.html path="/assets/img/skills_logos/matplotlib.svg" title="Matplotlib" class="img-fluid rounded z-depth-1" %}
+        </a>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <a href="https://scikit-learn.org" target="_blank">
+            {% include figure.html path="/assets/img/skills_logos/scikitlearn_logo.svg" title="Scikit-learn" class="img-fluid rounded z-depth-1" %}
+        </a>
+    </div>
+</div>
