@@ -1,26 +1,29 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: MSc in Applied Earth Observation and Geoanalysis.
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  image: profile_img.jpg
+  image_circular: true # crops the image to make it circular
+#address: >
+    #<p>555 your office number</p>
+    #<p>123 your address street</p>
+    #<p>Your City, State 12345</p>
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
+Hello! My name is Walid Ghariani, and I am a recent MSc graduate in Applied Earth Observation and Geoanalysis from **[Julius-Maximilians-Universität Würzburg](https://www.uni-wuerzburg.de/startseite/){:target="_blank"}** with a passion for geospatial data science and analytics. I am excited about leveraging data-driven insights to solve complex problems and drive impactful decision-making.
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+During my academic and professional journey, I developed a strong foundation in **Spatial Data**, **Earth Observation**, **Programming**, **Statistics**, **Data Science** and **Machine Learning**. I have hands-on experience in **Data Manipulation**, **Data Visualisation**, and **Predictive Modeling** using Python and R. I thrive when faced with challenging problems, as I enjoy diving deep into research, conducting thorough data analysis, and immersing myself in the beauty of the data to bring high-quality geospatial and analytics solutions to businesses seeking higher efficiency. I am continuously expanding my skill set and staying up-to-date with the latest relevant programs through online courses, workshops, books and research publications.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Outside of work, I value the opportunity to create meaningful connections with people. I find great joy in engaging in genuine conversations, building relationships and a sense of community. I believe in the power of human connections and the valuable impact they can have on our lives.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+## Skills and Expertise
+
+This list represents some of the key tools and technologies that I work with and continuously enhance my skills in. Please note that this is not an exhaustive list, and I am always open to exploring and learning new technologies.
