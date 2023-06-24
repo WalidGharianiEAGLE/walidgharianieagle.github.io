@@ -1,12 +1,11 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - WalidGharianiEAGLE
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - WalidGharianiEAGLE/spatial-kfold
+  - WalidGharianiEAGLE/Aus_Bushfires_App
+  #- WalidGharianiEAGLE/MET3_Spatial_Python
+  - WalidGharianiEAGLE/LiDAR_segmentation
+  - WalidGharianiEAGLE/AgriRoof
+  - WalidGharianiEAGLE/MB2-Final-Project
+  - WalidGharianiEAGLE/MET3_Spatial_Python/tree/master
