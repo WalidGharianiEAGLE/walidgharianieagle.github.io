@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<svg width="150" height="100" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
+ <defs>
+  <symbol height="346.29px" id="svg_27" viewBox="0 0 722.569 346.291" width="722.57px" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg">
+   <metadata id="svg_26">image/svg+xml</metadata>
+   <polygon fill="#EE7913" id="svg_24" points="195,180 216.513,180 198.306,162 176,162 176,183.433 195,202.37 "/>
+   <path d="m414.25,171.13l0,54.35c-14.96,10.92 -37.79,18.39 -57.38,18.39c-42.84,0 -75.37,-31.11 -75.37,-72.13c0,-40.81 33.14,-71.72 77.19,-71.72c21.01,0 42.42,8.08 56.77,20.6l-17.98,22.84c-10.51,-9.7 -25.05,-15.76 -38.79,-15.76c-25.06,0 -44.45,19.19 -44.45,44.04c0,25.05 19.59,44.25 44.65,44.25c8.48,0 18.59,-3.03 27.68,-7.68l0,-37.17l27.68,0l0,-0.01z" fill="url(#svg_21)" id="svg_20"/>
+   <path d="m442.13,242.46l0,-141.43l31.92,0l0,141.43l-31.92,0z" fill="url(#svg_17)" id="svg_16"/>
+   <path d="m610.83,114.97l-12.32,26.46c-14.95,-8.89 -32.73,-14.54 -44.05,-14.54c-10.71,0 -17.98,3.84 -17.98,11.51c0,26.07 75.36,11.52 75.16,62.43c0,27.68 -24.04,42.64 -55.36,42.64c-23.23,0 -46.47,-8.89 -62.43,-22.43l12.73,-26.06c14.55,12.93 35.15,21.21 50.1,21.21c13.14,0 21.02,-4.85 21.02,-13.54c0,-26.67 -75.36,-11.11 -75.36,-61.21c0,-25.66 22.02,-41.83 54.75,-41.83c19.8,0 39.6,6.06 53.74,15.36z" fill="url(#svg_13)" id="svg_12"/>
+   <polygon fill="url(#svg_9)" id="svg_8" points="264,226.946 225.617,189 204,189 204,211.34 240.782,248 264,248 "/>
+   <polygon fill="#F0E64A" id="svg_7" points="204,189 225.617,189 216.513,180 195,180 195,202.37 204,211.34 "/>
+   <path d="m198.05,216.86c-3.26,0.75 -6.65,1.16 -10.14,1.16c-25.01,0 -46.27,-20.56 -46.27,-47.22s21.03,-46.77 46.27,-46.77c25.24,0 45.33,20.11 45.33,46.77c0,4.34 -0.54,8.51 -1.53,12.46l23.14,23.14c5.97,-10.46 9.3,-22.61 9.3,-35.78c0,-41.09 -32.79,-71.85 -76.71,-71.85c-43.72,0 -76.51,30.56 -76.51,71.85c0,41.5 32.79,72.67 76.51,72.67c11.29,0 21.84,-2.08 31.28,-5.86l-20.67,-20.57z" fill="url(#svg_4)" id="svg_3"/>
+   <path d="m176,162l88,86l0,-21.05l-38.38,-37.95l-9.11,-9l-18.2,-18l-22.31,0z" fill="#ffffff" fill-opacity="0.17" id="svg_2"/>
+  </symbol>
+  <linearGradient id="svg_21" x1="Infinity" x2="Infinity" y1="Infinity" y2="Infinity">
+   <stop id="svg_23" offset="0" stop-color="#589632"/>
+   <stop id="svg_22" offset="1" stop-color="#93B023"/>
+  </linearGradient>
+  <linearGradient id="svg_17" x1="Infinity" x2="Infinity" y1="Infinity" y2="Infinity">
+   <stop id="svg_19" offset="0" stop-color="#589632"/>
+   <stop id="svg_18" offset="1" stop-color="#93B023"/>
+  </linearGradient>
+  <linearGradient id="svg_13" x1="Infinity" x2="Infinity" y1="Infinity" y2="Infinity">
+   <stop id="svg_15" offset="0" stop-color="#589632"/>
+   <stop id="svg_14" offset="1" stop-color="#93B023"/>
+  </linearGradient>
+  <linearGradient id="svg_9" x1="Infinity" x2="Infinity" y1="Infinity" y2="Infinity">
+   <stop id="svg_11" offset="0" stop-color="#589632"/>
+   <stop id="svg_10" offset="1" stop-color="#93B023"/>
+  </linearGradient>
+  <linearGradient id="svg_4" x1="Infinity" x2="Infinity" y1="Infinity" y2="Infinity">
+   <stop id="svg_6" offset="0" stop-color="#589632"/>
+   <stop id="svg_5" offset="1" stop-color="#93B023"/>
+  </linearGradient>
+ </defs>
+ <g class="layer">
+  <title>Layer 1</title>
+  <use id="svg_28" transform="matrix(0.296239, 0, 0, 0.30072, -0.76637, -0.31803)" x="-104.14" xlink:href="#svg_27" y="-16.39"/>
+ </g>
+</svg>
