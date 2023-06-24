@@ -1,81 +1,57 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+title: AgriRoof App #<h1>AgriRoof App</h1> 
+description: Shiny application for Potential Flat Rooftop Detection using LiDAR and GIS for Rooftop Farming.
+img: assets/img/projects/project_3/uav2_crop.jpg
 importance: 3
-category: work
+category: Open Source
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Source code
+🔗 [AgriRoof](https://github.com/WalidGharianiEAGLE/AgriRoof)
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+## Motivations
+
+How can we stablish rooftop farms 🌱🏙️ in urban areas and contribute to the optimization of resource utilization for profitable and sustainable agricultural businesses? 🚀💼
+
+This was the topic of research during my MSc course on "Land and Water Management" for me and my colleagues. To answer this question, we adapted an innovative approach based on LiDAR and GIS data. As part of the team, I played a role in LiDAR processing and in creating the app that would support our methodology and enable efficient selection of suitable rooftops.
+
+## Description
+
+With this app we offer the possibility of finding suitable places to establish a rooftop farms in a city. Our main goal is to help our customers to save resources by evaluating the areas of interest with LiDAR and GIS data, so in the end, they can operate a profitable agricultural business. Our solution would deliver key information for local authorities, urban planners, and companies as local food markets.
+
+#### LiDAR Processing
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/projects/project_3/lidar_method.png" title="workflow" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    LiDAR data processing workflow.
 </div>
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/projects/project_3/lidar.png" title="3D" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    3D visualisation with rLiDAR
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+## App Preview
 
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/projects/project_3/app_preview.png" title="AgriRoof preview" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Identifying potential rooftops within the city of Bonn, Germany.
 </div>
 
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+    ---
+    Background image srource: Photo by Hannah Lim on Unsplash
+    ---

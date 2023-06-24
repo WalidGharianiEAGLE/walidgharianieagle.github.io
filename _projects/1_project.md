@@ -1,80 +1,65 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: spatial-kfold #<h1>Spatial-kfold</h1>
+description: A Python Package for Spatial Resampling Toward More Reliable Cross-Validation in Spatial Studies. 
+img: assets/img/projects/project_1/trees.jpg
 importance: 1
-category: work
+category: Open Source
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Source code
+🔗 [spatial-kfold](https://github.com/WalidGharianiEAGLE/spatial-kfold)
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+## Motivations
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+During my MSc thesis, I developed a Python package aimed at enhancing the reliability of cross-validation for spatial data. There seems to be a misconception regarding the appropriate choice of cross-validation strategy when conducting spatial predictions and evaluating machine learning algorithms. Many researchers often opt for random cross-validation or k-fold techniques, which fail to consider the spatial nature of the data and the presence of spatial autocorrelation [Bahn & McGill, 2012](https://doi.org/10.1111/ecog.02881). Consequently, this approach may lead to an overly optimistic assessment of the model's performance and an overfitting issue. This is why I created this package, to address not only the issue of overfitting but also to provide a more reliable evaluation of model performance.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+## Description
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+spatial-kfold is a python library for performing spatial resampling to ensure more robust cross-validation in spatial studies. It offers spatial clustering and block resampling techniques with user-friendly parameters to customize the resampling. It enables users to conduct a "Leave Region Out" cross-validation, which can be useful for evaluating the model's generalization to new locations as well as improving the reliability of feature selection [Meyer et al., 2019](https://doi.org/10.1016/j.ecolmodel.2019.108815) and hyperparameter tuning [Schratz et al., 2019](https://doi.org/10.1016/j.ecolmodel.2019.06.002) in spatial studies.
 
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+## Main Features
 
+spatial-kfold allow to conduct "Leave Region Out" using two spatial resampling techniques:
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+* 1- Spatial clustering with kmeans
+* 2- Spatial blocks
+    * Random blocks
+    * Continuous blocks 
+        * tb-lr : top-bottom, left-right
+        * bt-rl : bottom-top, right-left
 
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
+## Installation
+
+spatial-kfold can be installed from [PyPI](https://pypi.org/project/spatial-kfold/)
+
+```py
+pip install spatial-kfold
 ```
-{% endraw %}
+### Spatial resampling
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/projects/project_1/blocks_resampling
+.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+    Spatially Clustered Folds.
+</div>
+
+### Random and Spatial cross validation
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/projects/project_1/randomCV_spatialCV.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+    k-fold vs spatial-kfold.
+</div>
+
+    ---
+    Background image srource: Photo by Lukasz Szmigiel on Unsplash 
+    ---
