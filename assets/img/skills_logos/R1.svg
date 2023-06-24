@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<svg width="724" height="180" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid">
+ <defs>
+  <linearGradient gradientUnits="objectBoundingBox" id="gradientFill-1" spreadMethod="pad" x1="0" x2="1" y1="0" y2="1">
+   <stop offset="0" stop-color="rgb(203,206,208)"/>
+   <stop offset="1" stop-color="rgb(132,131,139)"/>
+  </linearGradient>
+  <linearGradient gradientUnits="objectBoundingBox" id="gradientFill-2" spreadMethod="pad" x1="0" x2="1" y1="0" y2="1">
+   <stop offset="0" stop-color="rgb(39,109,195)"/>
+   <stop offset="1" stop-color="rgb(22,92,170)"/>
+  </linearGradient>
+ </defs>
+ <g class="layer">
+  <title>Layer 1</title>
+  <g id="svg_3">
+   <path d="m331.45,152.83c-59.4,0 -107.54,-32.87 -107.54,-73.42c0,-40.55 48.15,-73.42 107.54,-73.42c59.4,0 107.55,32.87 107.55,73.42c0,40.55 -48.15,73.42 -107.55,73.42zm16.46,-118.12c-45.15,0 -81.74,22.47 -81.74,50.18c0,27.72 36.6,50.19 81.74,50.19c45.15,0 78.46,-15.36 78.46,-50.19c0,-34.81 -33.32,-50.18 -78.46,-50.18z" fill="url(#gradientFill-1)" fill-rule="evenodd" id="svg_1"/>
+   <path d="m387.7,119.7c0,0 6.5,2 10.29,3.95c1.32,0.67 3.59,2.03 5.22,3.8c1.6,1.74 2.39,3.49 2.39,3.49l25.66,44.09l-41.46,0.02l-19.39,-37.11c0,0 -3.97,-6.95 -6.42,-8.96c-2.04,-1.68 -2.91,-2.28 -4.93,-2.28c-1.4,0 -9.85,0 -9.85,0l0.01,48.33l-36.69,0.02l0,-123.47l73.68,0c0,0 33.55,0.62 33.55,33.16c0,32.54 -32.06,34.96 -32.06,34.96l0,-0.01zm-15.96,-41.35l-22.21,-0.01l-0.01,21l22.22,-0.01c0,0 10.29,-0.03 10.29,-10.68c0,-10.86 -10.29,-10.3 -10.29,-10.3z" fill="url(#gradientFill-2)" fill-rule="evenodd" id="svg_2"/>
+  </g>
+ </g>
+</svg>
