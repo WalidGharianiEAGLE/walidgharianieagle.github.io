@@ -8,10 +8,10 @@ category: Open Source
 ---
 
 ## Shinyapps
-💻 [Shiny App](https://github.com/WalidGharianiEAGLE/spatial-kfold)
+💻 [Shiny App](https://walidgharianieagle.shinyapps.io/AustralianBushFires_2019-2020/)
 
 ## Source code
-🔗 [spatial-kfold](https://github.com/WalidGharianiEAGLE/spatial-kfold)
+🔗 [Bushfire](https://github.com/WalidGharianiEAGLE/Aus_Bushfires_App)
 
 
 ## Motivations

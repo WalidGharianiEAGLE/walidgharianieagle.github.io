@@ -13,7 +13,7 @@ category: Open Source
 
 ## Motivations
 
-How can we stablish rooftop farms 🌱🏙️ in urban areas and contribute to the optimization of resource utilization for profitable and sustainable agricultural businesses? 🚀💼
+How can we establish rooftop farms 🌱🏙️ in urban areas and contribute to the optimization of resource utilization for profitable and sustainable agricultural businesses? 🚀💼
 
 This was the topic of research during my MSc course on "Land and Water Management" for me and my colleagues. To answer this question, we adapted an innovative approach based on LiDAR and GIS data. As part of the team, I played a role in LiDAR processing and in creating the app that would support our methodology and enable efficient selection of suitable rooftops.
 
